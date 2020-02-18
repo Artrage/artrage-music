@@ -63,9 +63,12 @@ header {
 
 }
 .active {
-    background-color: rgba(72, 72, 77, 0.4);
+    background-color: rgba(92, 92, 126, 0.4);  
 }
 
+.active a {
+    color: #b90f26;
+}
 /* ------  ------ */
 
 /* ------ Text Elements ------ */
@@ -142,6 +145,13 @@ h1,h2,h3,h4 {
     text-decoration: none !important
 }
 
+.album-description {
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /* ------ hr ------ */
 .hr {
     border:none;
@@ -179,8 +189,8 @@ h1,h2,h3,h4 {
 
 .iframe-artrage {
     padding: 10px 10px 15px 10px;
-    width: 400px;
-    height: 307px;
+    max-width: 400px;
+    /*height: 307px;*/
 }
 
 /* ------ Footer ------ */
@@ -234,6 +244,13 @@ h1,h2,h3,h4 {
     color: #df621a;
 }
 
+.image-post {
+    max-width: 15em;
+    max-height: 15em;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+}
 
 
 /*.card {
