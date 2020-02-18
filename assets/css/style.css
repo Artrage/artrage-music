@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Oxygen&display=swap');
+
+/* -------- Heading ------- */
+
+header {
+    margin: 0;
+}
+
+.name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.title {
+    font-family: "Oxygen", sans-serif;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.bg-color-name-title {
+    background-color: #c2c2c2;
+}
+
+
+.menuitem {
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #e9e9e9;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    height: 100px;
+    color: #fd701e;
+}
+
+.menuitem a i {
+    padding-top: 24px;
+    display: block;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+#nav {
+
+}
+.active {
+    background-color: rgba(72, 72, 77, 0.4);
+}
+
+/* ------  ------ */
+
+/* ------ Text Elements ------ */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.h3padded {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color:#08002e;
+}
+
+.h3padded-notop {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color:#08002e;
+}
+
+.album-main-body {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #08002e;
+}
+
+.album-entry {
+    padding: 5px 5px 0px 5px;
+    font-weight: 400;
+}
+
+.album-title {
+    font-family: "Oxygen", sans-serif;
+    padding: 0px 5px 5px 15px; 
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.col-md-4 {
+    color: #242424 ;
+}
+
+.logo {
+    background: url("../images/artragelogo2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+}
+
+.content-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #08002e;
+}
+
+.content-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #df621a;
+}
+
+.nounderline {
+    text-decoration: none !important
+}
+
+/* ------ hr ------ */
+.hr {
+    border:none;
+    border-top:1px dotted #7e7e7e;
+    color: none;
+    background-color: none;
+    height:0px;
+    width:75%;
+}
+
+/* ------ Colors ------ */
+
+.color-blue {
+    background-color: #08002e;
+}
+
+
+/* ------ Hover ------ */
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(218, 99, 2, 1);
+    height: 100%;
+     
+}
+
+/* ------ Section ------ */
+.bg-color-music {
+    background-color: #c2c2c2;
+}
+
+.bg-color-right-col {
+    background-color: #cacaca;
+}
+
+.iframe-artrage {
+    padding: 10px 10px 15px 10px;
+    width: 400px;
+    height: 307px;
+}
+
+/* ------ Footer ------ */
+
+#footer-details {
+    width: 100%;
+    /*display: inline-flex;*/
+    /*margin-top: 15px;*/
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #7e7e7e;
+}
+
+.container-fluid {
+    color: #fafafa;
+    
+}
+
+/*.col-sm-3 {
+    : 8px;
+}*/
+
+/*.fab, .fas {
+    color:#df621a;
+} */
+
+.orange-icon {
+    color:#df621a;
+}
+
+.list-inline-item a i:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+
+/*------ Images ------ */
+.album-link {
+    max-width: 44%;
+    max-height: 44%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.album-link a:hover {
+    max-width: 44%;
+    max-height: 44%;
+    text-decoration: none;
+    text-align: center;
+    color: #df621a;
+}
+
+
+
+/*.card {
+  
+    background: url("../assets/images/paypal-artrage-org1.png") no-repeat;
+    max-width: 147px;
+    display: inline-block;
+}
+.card-img:hover {
+    max-width: 147px;
+    background: url("..//assets/images/paypal-artrage-org2.png") no-repeat;
+} */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
