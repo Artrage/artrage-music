@@ -220,15 +220,15 @@ h1,h2,h3,h4 {
 
 /*------ Images ------ */
 .album-link {
-    max-width: 44%;
-    max-height: 44%;
+    max-width: 10em;
+    max-height: 10em;
     text-decoration: none;
     text-align: center;
 }
 
 .album-link a:hover {
-    max-width: 44%;
-    max-height: 44%;
+    max-width: 10em;
+    max-height: 10em;
     text-decoration: none;
     text-align: center;
     color: #df621a;
