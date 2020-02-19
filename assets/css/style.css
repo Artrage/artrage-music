@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Oxygen&display=swap');
 
+/*body
+{
+    display:table;
+    width:100%;
+}
+div
+{
+    display:table-row;
+    align: center;
+}
+div+ div
+{
+    height:100%;  
+}*/
+
 /* -------- Heading ------- */
 
 header {
@@ -20,7 +35,10 @@ header {
 }
 
 .bg-color-name-title {
-    background-color: #c2c2c2;
+    /*background-color: #6f6e74;*/
+    /*background-color: #8e8e8e;*/
+    background-color: rgba(10, 4, 104, 0.3)
+
 }
 
 
@@ -36,7 +54,8 @@ header {
     width: 100%;
     text-decoration: none;
     height: 100px;
-    color: #fd701e;
+    /*color: #fd701e;*/
+    color: #9c0e21;
 }
 
 .menuitem a i {
@@ -63,13 +82,13 @@ header {
 
 }
 .active {
-    background-color: rgba(92, 92, 126, 0.4);  
+    background-color: rgba(121, 121, 165, 0.4);  
 }
 
 .active a {
-    color: #b90f26;
+    color: #9c0e21;
 }
-/* ------  ------ */
+
 
 /* ------ Text Elements ------ */
 .uppercase {
@@ -119,14 +138,14 @@ h1,h2,h3,h4 {
 }
 
 .logo {
-    background: url("../images/artragelogo2.png");
+    background: url("../images/artragelogo-star.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -webkit-transition: all 2s ease-in-out;
+    transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
 }
 
 .content-link {
@@ -138,7 +157,8 @@ h1,h2,h3,h4 {
 .content-link:hover {
     text-decoration: none;
     font-weight: bold;
-    color: #df621a;
+    /*color: #df621a;*/
+    color:#9c0e21;
 }
 
 .nounderline {
@@ -146,7 +166,7 @@ h1,h2,h3,h4 {
 }
 
 .album-description {
-    padding: 5px;
+    padding: 10px 10px 10px 5px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -173,7 +193,8 @@ h1,h2,h3,h4 {
 
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(218, 99, 2, 1);
+    /*background: rgba(218, 99, 2, 1);*/
+    background: #9c0e21;
     height: 100%;
      
 }
@@ -203,6 +224,7 @@ h1,h2,h3,h4 {
     font-size: 14px;
     padding-top: 10px;
     color: #7e7e7e;
+    float: bottom;
 }
 
 .container-fluid {
@@ -219,7 +241,8 @@ h1,h2,h3,h4 {
 } */
 
 .orange-icon {
-    color:#df621a;
+    /*color:#df621a;*/
+    color:#9c0e21;
 }
 
 .list-inline-item a i:hover {
@@ -227,18 +250,24 @@ h1,h2,h3,h4 {
     text-decoration: none;
 }
 
+.moneytag {
+    padding-top: 0;
+    color: #08002e;
+    font-weight: 500;
+}
+
 
 /*------ Images ------ */
 .album-link {
-    max-width: 10em;
-    max-height: 10em;
+    max-width: 12em;
+    max-height: 12em;
     text-decoration: none;
     text-align: center;
 }
 
 .album-link a:hover {
-    max-width: 10em;
-    max-height: 10em;
+    max-width: 12em;
+    max-height: 12em;
     text-decoration: none;
     text-align: center;
     color: #df621a;
@@ -275,3 +304,36 @@ h1,h2,h3,h4 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
+
+/* ------ Buttons ------ */
+.btn-link {
+  margin-top: 2px;  
+  font-weight: normal;
+  color:  #9c0e21;
+  background-color: #a5afcf;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+.btn-link:hover {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: #9c0e21;
+    border-color: transparent;
+  }
+
+.btn-link:focus,
+.btn-link:.focus {
+    text-decoration: none;
+    border-color: transparent;
+    box-shadow: none;
+    color: #
+  }
+
+  &:disabled,
+  &.disabled {
+    color: $btn-link-disabled-color;
+    pointer-events: none;
+  }
+
+}
