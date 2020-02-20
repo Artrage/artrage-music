@@ -369,6 +369,10 @@ h1,h2,h3,h4 {
   background-color: #a5afcf;
   text-transform: uppercase;
   text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
 
 }
 .btn-link:hover {
