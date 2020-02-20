@@ -142,7 +142,7 @@ h1,h2,h3,h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 12em;
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
@@ -167,6 +167,14 @@ h1,h2,h3,h4 {
 
 .album-description {
     padding: 10px 10px 10px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.album-description-merch {
+    margin-left: 30px;
+    padding: 10px 5px 10px 5px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -247,6 +255,12 @@ h1,h2,h3,h4 {
 .orange-icon {
     /*color:#df621a;*/
     color:#9c0e21;
+}
+
+.orange-icon-merch {
+    /*color:#df621a;*/
+    color:#9c0e21;
+    padding-left: 20px;
 }
 
 .list-inline-item a i:hover {
