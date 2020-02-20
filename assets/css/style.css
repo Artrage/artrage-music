@@ -209,7 +209,7 @@ h1,h2,h3,h4 {
 /* ------ hr ------ */
 .hr {
     border:none;
-    border-top:1px dotted #7e7e7e;
+    border-top:1px dotted #d86214;
     color: none;
     background-color: none;
     height:0px;
@@ -303,7 +303,6 @@ h1,h2,h3,h4 {
     
     /*display: inline;*/
     padding: 2px;
-    font-size: 18px;
     color: #08002e;
     text-decoration: none;
     transition: all 0.15s ease-in-out;
@@ -311,6 +310,18 @@ h1,h2,h3,h4 {
     -webkit-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
 
+}
+
+.big-icon {
+    font-size: 30px;
+}
+
+.med-icon {
+    font-size: 20px;
+}
+
+.li-inline {
+    display: inline;
 }
 
 .moneytag {
@@ -388,8 +399,13 @@ h1,h2,h3,h4 {
     -moz-transition: all 0.15s ease-in-out;
     -webkit-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-
 }
+
+.btn-link-med {
+    width: 80px;
+    height: 28px;
+}
+
 .btn-link:hover {
     color: #fafafa;
     text-decoration: none;

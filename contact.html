@@ -151,12 +151,12 @@
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@address.com">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 							</div>
 							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Example textarea</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="6">
+								<label for="exampleFormControlTextarea1">What's on your mind, username?</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="4">
 							    </textarea>
 							</div>
                             <div class="text-center">
@@ -168,20 +168,6 @@
 					</div>
 			
 					<div class="col-12">
-						<h4 class="h3padded uppercase text-center">Berlin</h4>
-						<div class="text-center">
-							<img src="./assets/images/about-artrage-berlin.png" class="album-link nounderline image-post-photo"  alt="Berlin" />
-			                        </div>
-			
-							<p class="about-p">
-								Berlin is a state of mind, and mine is permanent.
-								Berlin is a state of mind, and mine is permanent.
-								Berlin is a state of mind, and mine is permanent.
-								Berlin is a state of mind, and mine is permanent.
-								Berlin is a state of mind, and mine is permanent.
-								Berlin is a state of mind, and mine is permanent.
-							</p>
-							<hr class="hr">
 			
 						</div>
 					</div>
@@ -191,49 +177,50 @@
 								<h4 class="h3padded uppercase text-center">Social Networks</h4>
 								<div class="text-center">
 												<ul class="list-inline social-links">
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-facebook orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Facebook</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-twitter orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Twitter</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-soundcloud orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Soundcloud</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-apple orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Apple Music</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-itemm">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-instagram orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Instagram</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-youtube orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">YouTube</span>
 														</a>
 													</li>
-													<li class="list-inline-contact-item">
+													<li class="list-inline-contact-item big-icon">
 														<a target="_blank" href="#">
 															<i class="fab fa-bandcamp orange-icon" aria-hidden="true"></i>
 															<span class="sr-only">Bandcamp</span>
 														</a>
 													</li>
 												</ul>
+                                                <hr class="hr" />
 							        </div>
 			
 									<p class="about-p">
@@ -249,18 +236,25 @@
 								</div>
 			
 								<div class="col-12">
-									<h4 class="uppercase h3padded-notop ">Posing</h4>
+									<h4 class="uppercase h3padded-notop ">Donate</h4>
 									<div class="text-center">
-										<img src="./assets/images/about-artrage-liftolook.jpg" class="image-post-photo"  alt="Posing" />
+                                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                                <input type="hidden" name="cmd" value="_donations" />
+                                                <input type="hidden" name="business" value="8DAVRXX4QH66J" />
+                                                <input type="hidden" name="currency_code" value="EUR" />
+                                                <input type="image" src="./assets/images/paypal-donate.png" class="btn btn-link" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                                <img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
+                                            </form>
 										</div>
 			
 										<p class="about-p">
-											Sometimes my super talented brother takes my pictures in a lift.
-											Sometimes my super talented brother takes my pictures in a lift.
-											Sometimes my super talented brother takes my pictures in a lift.
-											Sometimes my super talented brother takes my pictures in a lift.
-											Sometimes my super talented brother takes my pictures in a lift.
-											Sometimes my super talented brother takes my pictures in a lift.
+											Money supports creativity and helps music producers concentrate on making more tracks.
+                                            Money supports creativity and helps music producers concentrate on making more tracks.
+											Money supports creativity and helps music producers concentrate on making more tracks.
+											Money supports creativity and helps music producers concentrate on making more tracks.
+											Money supports creativity and helps music producers concentrate on making more tracks.
+											Money supports creativity and helps music producers concentrate on making more tracks.
+
 										</p>
 										<hr class="hr">
 									</div>
@@ -328,10 +322,9 @@
 			</div>
 			<div class="col-sm-3">
 				<h5 class="uppercase general-sub">Contact</h5>
-				<p class="inline-block">
-					Get in touch for collaboration!
-					<a href="contact.html" target="_blank">
-						<i class="fas fa-at list-inline-item orange-icon" aria-hidden="true"></i>
+				<p class="li-inline">
+					Get in touch! <a href="contact.html" target="_blank" class="list-inline-item">
+						<li class="list-inline-item"><i class="fas fa-at list-inline-item orange-icon" aria-hidden="true"></i></li>
 						<span class="sr-only">Email.</span>
 					</a>
 				</p>
@@ -342,7 +335,7 @@
 					<input type="hidden" name="cmd" value="_donations" />
 					<input type="hidden" name="business" value="8DAVRXX4QH66J" />
 					<input type="hidden" name="currency_code" value="EUR" />
-					<input type="image" src="./assets/images/paypal-artrage-prpl.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+					<input type="image" src="./assets/images/paypal-donate.png" border="0" class="btn btn-link btn-link-med" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 					<img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
                 </form>
 				
