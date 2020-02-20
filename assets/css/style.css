@@ -120,7 +120,7 @@ header {
 }
 
 .album-entry {
-    padding: 5px 5px 0px 5px;
+    padding: 5px 25px 0px 5px;
     font-weight: 400;
 }
 
@@ -131,7 +131,7 @@ header {
 
 .about-title {
     font-family: "Oxygen", sans-serif;
-    padding: 0px 5px 5px 15px; 
+    padding: 0px 20px 5px 20px; 
     color: #08002e;
     font-weight: 600;
 }
@@ -146,7 +146,7 @@ header {
 
 .about-p {
     font-family: "Oxygen", sans-serif;
-    padding: 8px 10px 8px 10px; 
+    padding: 10px 25px; 
     color: #242424;
     font-weight: 400;
     font-size: 15px;
