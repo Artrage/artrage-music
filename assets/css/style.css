@@ -176,6 +176,7 @@ h1,h2,h3,h4 {
     text-decoration: none;
     font-weight: 600;
     color: #08002e;
+
 }
 
 .content-link:hover {
@@ -183,6 +184,7 @@ h1,h2,h3,h4 {
     font-weight: bold;
     /*color: #df621a;*/
     color:#9c0e21;
+
 }
 
 .nounderline {
@@ -290,6 +292,10 @@ h1,h2,h3,h4 {
 .list-inline-item a i:hover {
     color: #fafafa;
     text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
 }
 
 .moneytag {
