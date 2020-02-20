@@ -129,6 +129,13 @@ header {
     padding: 0px 5px 5px 15px; 
 }
 
+.about-title {
+    font-family: "Oxygen", sans-serif;
+    padding: 0px 5px 5px 15px; 
+    color: #08002e;
+    font-weight: 600;
+}
+
 h1,h2,h3,h4 {
     margin: 0;
 }
