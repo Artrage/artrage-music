@@ -313,7 +313,8 @@ h1,h2,h3,h4 {
 }
 
 .big-icon {
-    font-size: 30px;
+    font-size: 31px;
+    padding-top: 1px;
 }
 
 .med-icon {
@@ -330,6 +331,9 @@ h1,h2,h3,h4 {
     font-weight: 500;
 }
 
+.email-bg {
+    background-color: #fff6f7;
+}
 
 /*------ Images ------ */
 .album-link {
