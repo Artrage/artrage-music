@@ -136,6 +136,14 @@ header {
     font-weight: 600;
 }
 
+.merch-p {
+    font-family: "Oxygen", sans-serif;
+    padding: 0px 5px 5px 15px; 
+    color: #08002e;
+    font-weight: 400;
+    font-size: 15px;  
+}
+
 .about-p {
     font-family: "Oxygen", sans-serif;
     padding: 8px 10px 8px 10px; 
