@@ -146,6 +146,7 @@ h1,h2,h3,h4 {
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
 }
 
 .content-link {
