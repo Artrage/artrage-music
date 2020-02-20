@@ -136,6 +136,14 @@ header {
     font-weight: 600;
 }
 
+.about-p {
+    font-family: "Oxygen", sans-serif;
+    padding: 8px 10px 8px 10px; 
+    color: #242424;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 h1,h2,h3,h4 {
     margin: 0;
 }
