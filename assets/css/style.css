@@ -243,7 +243,11 @@ h1,h2,h3,h4 {
 
 /* ------ Section ------ */
 .bg-color-music {
-    background-color: #c2c2c2;
+    background-color: #dfdfdf;
+}
+
+.bg-color-contact {
+    background-color: #dadada;
 }
 
 .bg-color-right-col {
