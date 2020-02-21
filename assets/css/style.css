@@ -133,7 +133,7 @@ header {
     font-family: "Oxygen", sans-serif;
     padding: 0px 20px 5px 20px; 
     color: #08002e;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .merch-p {
@@ -313,11 +313,35 @@ h1,h2,h3,h4 {
     padding: 2px;
     color: #08002e;
     text-decoration: none;
-    transition: all 0.15s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+}
+
+.contact-text a {
+    color:#9c0e21;
+    font-weight: bold;
+
+}
+
+.contact-text a:hover {
+    color: #cacaca;
+    text-decoration: none;
     -moz-transition: all 0.15s ease-in-out;
     -webkit-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
+}
 
+.i a {
+font-family: "Oxygen", sans-serif;
+color:#9c0e21;
+}
+
+.i a:hover {
+font-family: "Oxygen", sans-serif;
+color:#fafafa;
 }
 
 .big-icon {
@@ -401,7 +425,8 @@ h1,h2,h3,h4 {
 
 /* ------ Buttons ------ */
 .btn-link {
-  margin-top: 2px;  
+  margin-top: 2px;
+  
   font-weight: normal;
   color:  #9c0e21;
   background-color: #a5afcf;
