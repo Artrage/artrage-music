@@ -103,6 +103,11 @@ header {
     color:#08002e;
 }
 
+.general-sub {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
 .h3padded-notop {
     font-family: "Montserrat", sans-serif;
     padding-left: 0px;
@@ -289,6 +294,7 @@ h1,h2,h3,h4 {
 .orange-icon {
     /*color:#df621a;*/
     color:#9c0e21;
+    font-size: 1em;
 }
 
 .orange-icon-merch {
