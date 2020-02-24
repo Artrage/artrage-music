@@ -166,11 +166,14 @@ h1,h2,h3,h4 {
 }
 
 .logo {
-    background: url("../images/artragelogo-star.png");
+    background: url("../images/artragelogo4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 12em;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /*min-height: 12em;*/
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
@@ -432,7 +435,7 @@ color:#fafafa;
 /* ------ Buttons ------ */
 .btn-link {
   margin-top: 2px;
-  
+  padding-bottom: 5px;
   font-weight: normal;
   color:  #9c0e21;
   background-color: #a5afcf;
@@ -447,6 +450,7 @@ color:#fafafa;
 .btn-link-med {
     width: 80px;
     height: 28px;
+    padding-bottom: 5px;
 }
 
 .btn-link:hover {
