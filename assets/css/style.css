@@ -89,6 +89,10 @@ header {
     color: #9c0e21;
 }
 
+.heading {
+    text-align: center;
+}
+
 
 /* ------ Text Elements ------ */
 .uppercase {
@@ -125,7 +129,7 @@ header {
 }
 
 .album-entry {
-    padding: 5px 25px 0px 5px;
+    padding: 5px 0px 5px 0px;
     font-weight: 400;
 }
 
@@ -195,6 +199,13 @@ h1,h2,h3,h4 {
 
 }
 
+.content-heading {
+    text-decoration: none;
+    font-weight: 800;
+    color: #08002e;
+    text-align: center;
+}
+
 .nounderline {
     text-decoration: none !important
 }
@@ -243,10 +254,8 @@ h1,h2,h3,h4 {
 
 
 .hvr-sweep-to-bottom:before {
-    /*background: rgba(218, 99, 2, 1);*/
     background: #9c0e21;
     height: 100%;
-     
 }
 
 /* ------ Section ------ */
@@ -266,6 +275,10 @@ h1,h2,h3,h4 {
     padding: 10px 10px 15px 10px;
     max-width: 400px;
     /*height: 307px;*/
+}
+
+.col-border {
+    border-right: 1px dotted #cacaca;
 }
 
 /* ------ Footer ------ */
@@ -373,7 +386,7 @@ color:#fafafa;
 }
 
 .email-bg {
-    background-color: #fff6f7;
+    /*background-color: #fff6f7;*/
 }
 
 /*------ Images ------ */
@@ -397,7 +410,7 @@ color:#fafafa;
     max-height: 15em;
     text-align: center;
     padding: 5px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .image-post-photo {
@@ -405,8 +418,9 @@ color:#fafafa;
     max-height: 15em;
     text-align: center;
     padding: 5px;
-    padding-bottom: 20px;
-    border: 1px solid #7e7e7e;
+   /* padding-bottom: 20px;*/
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
 }
 
 /*.card {
@@ -478,4 +492,28 @@ color:#fafafa;
 
 .form-group {
     font-family: "Oxygen", sans-serif;
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+.linear-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    padding: 5px;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    /*background-size: 1000px 104px;*/
+    width: 94%;
+    height: 94%;
+    position: relative;
+    overflow: hidden;
 }
