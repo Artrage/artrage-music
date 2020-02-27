@@ -190,7 +190,22 @@ h1,h2,h3,h4 {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
+}
+
+.bg-note {
+    background-image: url("../images/bg-note.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /*transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    /*transition: all 3s ease-in-out;*/
+    /*-moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out; */
+
+
 }
 
 .content-link {
