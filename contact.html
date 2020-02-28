@@ -13,12 +13,16 @@
 		type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Oxygen&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-    <script src="jss/script.js"></script>
-    <script src="BootstrapFormHelpers/js/bootstrap-formhelpers-countries.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+		integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+	</script>
+	<script src="jss/script.js"></script>
+	<script src="BootstrapFormHelpers/js/bootstrap-formhelpers-countries.js"></script>
 
-    <title>Artrage - official website</title>
+	<title>Artrage - official website</title>
 </head>
 
 <body>
@@ -161,7 +165,7 @@
 			<div class="col-md-4 section-column email-bg col-border">
 				<div class="row-no-gutters">
 					<div class="col-12">
-						<h4 class="h3padded uppercase text-center">Email Artrage</h4>
+						<h4 class="h3padded uppercase text-center">Email</h4>
 						<form>
 							<div class="form-row">
 								<div class="col-md-6 mb-3">
@@ -184,21 +188,22 @@
 												<label for="validationDefault03">City</label>
 												<input type="text" class="form-control" id="validationDefault03" required>
                                             </div>
-										</div>
-												<div class="form-group">
-													<label for="exampleFormControlTextarea1">Your Message</label>
-													<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" value="Your message" required></textarea>
-												</div>
-												<div class="form-group">
-													<div class="form-check">
-														<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-														<label class="form-check-label" for="invalidCheck2">
+											</div>
+											<div class="form-group">
+												<label for="exampleFormControlTextarea1">Your Message</label>
+												<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" value="Your message" required></textarea>
+											</div>
+											<div class="form-group">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+													<label class="form-check-label" for="invalidCheck2">
 												                                    Agree to terms and conditions
 												                                </label>
-													</div>
-												</div>                                                <div class="text-center">
+												</div>
+											</div>
+											<div class="text-center">
 												<button class="btn btn-link" type="submit">SEND</button>
-                                                </div>
+											</div>
 						</form>
 						<hr class="hr">
 
@@ -211,7 +216,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="row-no-gutters">
-					<div class="col-12">
+					<!--<div class="col-12">
 						<h4 class="h3padded uppercase text-center">Social Networks</h4>
 						<div class="text-center">
 							<ul class="list-inline social-links">
@@ -262,25 +267,28 @@
 						</div>
 
 
-					</div>
+					</div>-->
 
 					<div class="col-12">
 						<h4 class="uppercase h3padded-notop ">Donate</h4>
+
+						<p class="about-p">
+							You are encouraged to also donate funds through PayPal.
+							It is safe, you don't even have to have an account with them.
+							And, Artrage will share any donation with The Ocean Cleanup organization.
+							The rest of it will go toward equipment upgrades.
+						</p>
+
 						<div class="text-center">
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 								<input type="hidden" name="cmd" value="_donations" />
 								<input type="hidden" name="business" value="8DAVRXX4QH66J" />
 								<input type="hidden" name="currency_code" value="EUR" />
-								<input type="image" src="./assets/images/paypal-donate.png" class="btn btn-link" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-								<img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
-                                            </form>
+								<input type="image" src="./assets/images/paypal-donate.png" class="btn btn-link img" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+								<img alt="" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
+                            </form>
 						</div>
 
-						<p class="about-p">
-							Money supports creativity and helps music producers concentrate on making more tracks.
-							Money supports creativity and helps music producers concentrate on making more tracks.
-							Money supports creativity and helps music producers concentrate on making more tracks.
-						</p>
 						<hr class="hr">
 					</div>
 				</div>
@@ -289,88 +297,84 @@
 		</div>
 
 	</section>
-    <footer class="container-fluid color-blue">
-    <div class="text-center">
-		<div id="footer-details" class="row justify-content-center navbar-fixed-bottom">
-			<div class="col-sm-3">
-				<h5 class="uppercase general-sub">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-facebook orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
+	<footer class="container-fluid color-blue">
+		<div class="text-center">
+			<div id="footer-details" class="row justify-content-center navbar-fixed-bottom">
+				<div class="col-sm-3">
+					<h5 class="uppercase general-sub">Social</h5>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-facebook orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-twitter orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-soundcloud orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Soundcloud</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-apple orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Apple Music</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-instagram orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-youtube orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-bandcamp orange-icon" aria-hidden="true"></i>
+								<span class="sr-only">Bandcamp</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<h5 class="uppercase general-sub">About</h5>
+					<p class="inline-block">
+						Music producer in a variety of genres, from dance to electronica to doom metal.
+					</p>
+				</div>
+				<div class="col-sm-3">
+					<h5 class="uppercase general-sub active">Contact</h5>
+					<p class="list-inline-item contact-text orange-icon">
+						<a href="contact.html"><i class="fas fa-at" aria-hidden="true"></i>
+							Get in touch for collaboration
+							<span class="sr-only">Email.</span>
 						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-twitter orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-soundcloud orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Soundcloud</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-apple orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Apple Music</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-instagram orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-youtube orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">YouTube</span>
-						</a>
-					</li>
- 					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fab fa-bandcamp orange-icon" aria-hidden="true"></i>
-							<span class="sr-only">Bandcamp</span>
-						</a>
-					</li>                   
-				</ul>
-			</div>
-	
-			<div class="col-sm-3">
-				<h5 class="uppercase general-sub">About</h5>
-				<p class="inline-block">
-					Music producer in a variety of genres, from dance to electronica to doom metal.
-				</p>
-			</div>
-			<div class="col-sm-3">
-				<h5 class="uppercase general-sub active">Contact</h5>
-				<p class="li-inline contact-text">
-                <li class="list-inline-item contact-text orange-icon">
-					<a href="contact.html"><i class="fas fa-at" aria-hidden="true"></i> 
-                    Get in touch for collaboration
-					<span class="sr-only">Email.</span>
-					</a></li>
-				</p>
-			</div>
-			<div class="col-sm-3">
-            <h5 class="uppercase general-sub">Donate</h5>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-					<input type="hidden" name="cmd" value="_donations" />
-					<input type="hidden" name="business" value="8DAVRXX4QH66J" />
-					<input type="hidden" name="currency_code" value="EUR" />
-					<input type="image" src="./assets/images/paypal-donate.png" border="0" class="btn btn-link btn-link-med" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-					<img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
+					</p>
+				</div>
+				<div class="col-sm-3">
+					<h5 class="uppercase general-sub">Donate</h5>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+						<input type="hidden" name="cmd" value="_donations" />
+						<input type="hidden" name="business" value="8DAVRXX4QH66J" />
+						<input type="hidden" name="currency_code" value="EUR" />
+						<input type="image" src="./assets/images/paypal-donate.png" class="btn btn-link btn-link-med img" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<img alt="" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
                 </form>
-				
+				</div>
 			</div>
-
-		</div> 
-       </div>    
-    </footer>
+		</div>
+	</footer>
 </body>
-
 </html>
