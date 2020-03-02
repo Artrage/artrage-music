@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Oxygen&display=swap');
 
-/*body
-{
-    display:table;
-    width:100%;
-}
-div
-{
-    display:table-row;
-    align: center;
-}
-div+ div
-{
-    height:100%;  
-}*/
 
 /* -------- Heading ------- */
 
@@ -198,14 +184,6 @@ h1,h2,h3,h4 {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    /*transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-    -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-    /*transition: all 3s ease-in-out;*/
-    /*-moz-transition: all 3s ease-in-out;
-    -webkit-transition: all 3s ease-in-out;
-    -o-transition: all 3s ease-in-out; */
-
-
 }
 
 .content-link {
@@ -298,8 +276,7 @@ h1,h2,h3,h4 {
 
 .iframe-artrage {
     padding: 10px 10px 15px 10px;
-    max-width: 400px;
-    /*height: 307px;*/
+    max-width: 96%;
 }
 
 .col-border {
@@ -311,11 +288,11 @@ h1,h2,h3,h4 {
 #footer-details {
     width: 100%;
     text-align: center;
-    /*display: inline-flex;*/
-    /*margin-top: 15px;*/
+    display: inline-flex;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     padding-top: 10px;
+    padding-bottom: 12px;
     color: #7e7e7e;
     float: bottom;
 }
@@ -409,9 +386,6 @@ color:#fafafa;
     font-weight: 500;
 }
 
-.email-bg {
-    /*background-color: #fff6f7;*/
-}
 
 /*------ Images ------ */
 .album-link {
@@ -421,12 +395,8 @@ color:#fafafa;
     text-align: center;
 }
 
-.album-link a:hover {
-    max-width: 14em;
-    max-height: 14em;
-    text-decoration: none;
-    text-align: center;
-    color: #df621a;
+.album-link:hover {
+    opacity: 0.7;
 }
 
 .image-post {
@@ -434,15 +404,21 @@ color:#fafafa;
     max-height: 96%;
     text-align: center;
     padding: 5px;
-    /*padding-bottom: 20px;*/
 }
 
-.image-post-photo {
-    max-width: 96%;
-    max-height: 96%;
+.image-post-med {
+    max-width: 66%;
+    max-height: 66%;
     text-align: center;
     padding: 5px;
-   /* padding-bottom: 20px;*/
+}
+
+
+.image-post-photo {
+    max-width: 75%;
+    max-height: 75%;
+    text-align: center;
+    padding: 5px;
     border: 1px solid #c0c0c0;
     border-radius: 3px;
 }
@@ -451,28 +427,9 @@ color:#fafafa;
     border: 0px;
 }
 
-/*.card {
-  
-    background: url("../assets/images/paypal-artrage-org1.png") no-repeat;
-    max-width: 147px;
-    display: inline-block;
+.player-border-radius {
+    border-radius: 5px;
 }
-.card-img:hover {
-    max-width: 147px;
-    background: url("..//assets/images/paypal-artrage-org2.png") no-repeat;
-} */
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
 
 /* ------ Buttons ------ */
 .btn-link {
@@ -502,46 +459,7 @@ color:#fafafa;
     border-color: transparent;
   }
 
-.btn-link:focus,
-.btn-link:.focus {
-    text-decoration: none;
-    border-color: transparent;
-    box-shadow: none;
-    color: #
-  }
-
-  &:disabled,
-  &.disabled {
-    color: $btn-link-disabled-color;
-    pointer-events: none;
-  }
-
-}
 
 .form-group {
     font-family: "Oxygen", sans-serif;
-}
-
-@keyframes placeHolderShimmer{
-    0%{
-        background-position: -468px 0
-    }
-    100%{
-        background-position: 468px 0
-    }
-}
-.linear-background {
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: placeHolderShimmer;
-    animation-timing-function: linear;
-    background: #f6f7f8;
-    padding: 5px;
-    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
-    /*background-size: 1000px 104px;*/
-    width: 94%;
-    height: 94%;
-    position: relative;
-    overflow: hidden;
 }
