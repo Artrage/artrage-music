@@ -133,7 +133,7 @@ A few minor coding errors had been found in my code. What is left is something i
 ## DEPLOYMENT
 * The project was committed and pushed to GitHub via Terminal app in GitPod.
 * Had to rename the repo to artrage-music as GitHub pages, as well as Code Institute, does not like it when username and repo name are the same.
-* As I am publishing this website from `master`, the gh-pages branch is not available in this repo.
+* As I am publishing this website from `master`, the `gh-pages` branch is not available in this repo.
 * Thus, I published in `master` branch.
 * I used the official CI template to generate the repo for this project.
 * Locally, I ran the code in GitPod. PyCharm was also an option in case of working offline, yet this was not necessary.
