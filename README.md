@@ -2,7 +2,7 @@
 # FIRST MILESTONE PROJECT: Artrage, Music Producer
 
 This is the official website for the music producer Artrage.
-It contains his music, lyrics and other texts, as well as merchandize.
+It contains his music, lyrics and other texts, as well as merchandize, and a dedicated contact page.
 Thus, it meets the thematic requirements for the Milestone Project.
 1. The Music page contains four of his albums. Two are available to listen to via Apple Music (Ocean Lips, 2016) and Bandcamp (Blackmilk, 2011). Broken Stars is to be released in 2020, thus the page only provides information about it. Without a Face, 2004, is not available online.
 2. The Lyrics section contains the lyrics from two albums and a section entitled Quickies. Those are just short snippets of text.
@@ -12,7 +12,6 @@ Thus, it meets the thematic requirements for the Milestone Project.
 6. The footer contains social media links and PayPal donate button.
 
 ## UX PROCESS
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 The website is for and about the music producer Artrage.
 Its purpose is to:
 •	Showcase his albums and tracks to those who are interested in electronic and/or heavy music
@@ -23,7 +22,9 @@ Its purpose is to:
 •	Invite users to purchase his merchandize while also supporting a noble cause
 
 ## USER STORIES 
-User story pages, diagrams, sketches and other notes are contained in assets/project-images/milestone-project-images.pdf on GitHub.
+User story sketch pages, diagrams, sketches and other notes are contained on GitHub:
+https://github.com/Artrage/artrage/blob/master/assets/project-images/milestone-project-images.pdf
+
 1.	Music
 As the user opens index.html, the links to four Artrage’s albums appear both in the left menu and in the main page.
 The navy-to-burgundy hover is designed to invite the user to click on the link and listen to the album, while also reading about it in the right column.
@@ -50,17 +51,17 @@ The right column contains the option to donate via PayPal.
 ## FEATURES
 Existing Features
 1.	The app in general
-a.	Sweep-to-bottom feature in the main menu – grey-to-burgundy
-b.	General layout and color scheme are the same in all pages for synergy and 
-c.	Active section and subsection are highlighted a darker shade of grey
-d.	Active links in the left menu are highlighted burgundy
-e.	Custom made PayPal donate button changes from grey to burgundy on hover to match the top menu
-f.	Ease-in 3 second delay effect is used in the logo image
-g.	Ease-in 2 second delay effect is used in the social media icons
-h.	All external links open in a new tab
-i.	Images’ opacity changes on hover on all pages where images serve as links
-j.	Three Google fonts are used:  Bebas Neue in the heading, Montserrat in titles, and Oxygen in other areas
-k.  Unique favicon is used
+•	Sweep-to-bottom feature in the main menu – grey-to-burgundy
+•	General layout and color scheme are the same in all pages for synergy and 
+•	Active section and subsection are highlighted a darker shade of grey
+•	Active links in the left menu are highlighted burgundy
+•	Custom made PayPal donate button changes from grey to burgundy on hover to match the top menu
+•	Ease-in 3 second delay effect is used in the logo image
+•	Ease-in 2 second delay effect is used in the social media icons
+•	All external links open in a new tab
+•	Images’ opacity changes on hover on all pages where images serve as links
+•	Three Google fonts are used:  Bebas Neue in the heading, Montserrat in titles, and Oxygen in other areas
+•   Unique favicon is used throughout
 
 2.	Music
 a.	Each album is available to stream from an online service
@@ -121,7 +122,7 @@ A few minor coding errors had been found in my code. What is left is something i
     Try to submit the empty form and verify that an error message about the required fields appears
     Try to submit the form with an invalid email address and verify that a relevant error message appears
     Try to submit the form with all inputs valid and verify that a success message appears
-13. README was tested on dillinger.io and seems to look readable and in line with the convention
+13. README was tested on dillinger.io and looks readable and in line with the convention
 
 ## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
@@ -138,15 +139,15 @@ All photos, favicon, logos and artwork are by Art Balenok.
 The blank merchandise images were sourced as no-license-to-use. 
 The logos and artwork used on them are by Art Balenok.
 All photographs were taken by Art Balenok, all album covers were created in Photoshop by Art Balenok. 
-The image in “Without A Face” is by Sergei Balenok, who gave Art Balenok his express permission to use it.
+The images in “Without A Face” as well as "Blackmilk" are by Sergei Balenok, who gave Art Balenok his express permission to use them.
 All music is copyrighted by Artrage.
 
 ## ACKNOWLEDGEMENTS
-Matt Rudge, a Code Institute lecturer, demonstrated a number features I used in this project. 
+• Matt Rudge, a Code Institute lecturer, demonstrated a number features I used in this project. 
 I did tweak them a bit though.
 In particular, those are:
 1. Sweep-to-bottom features in the top menu
 2. Ease-in-out in the header logo
 3. Ease-in-out in the social links in the footer
 
-Jonathan Munz, who acted as a mentor on this project and provided valuable advice.
+• Jonathan Munz, who acted as a mentor on this project and provided valuable advice.
