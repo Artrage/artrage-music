@@ -21,10 +21,7 @@ header {
 }
 
 .bg-color-name-title {
-    /*background-color: #6f6e74;*/
-    /*background-color: #8e8e8e;*/
     background-color: rgba(10, 4, 104, 0.3)
-
 }
 
 
@@ -40,7 +37,6 @@ header {
     width: 100%;
     text-decoration: none;
     height: 100px;
-    /*color: #fd701e;*/
     color: #9c0e21;
 }
 
@@ -64,9 +60,6 @@ header {
     margin: 0;
 }
 
-#nav {
-
-}
 .active {
     background-color: rgba(121, 121, 165, 0.4);  
 }
@@ -88,7 +81,7 @@ header {
 .h3padded {
     font-family: "Montserrat", sans-serif;
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     color:#08002e;
 }
@@ -141,7 +134,7 @@ header {
 
 .about-p {
     font-family: "Oxygen", sans-serif;
-    padding: 0px 25px 0px 25px; 
+    padding: 5px 25px 0px 25px; 
     color: #242424;
     font-weight: 400;
     font-size: 15px;
@@ -163,7 +156,6 @@ h1,h2,h3,h4 {
     max-width: 100%;
     height: auto;
     display: block;
-    /*min-height: 12em;*/
     transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;
@@ -171,7 +163,6 @@ h1,h2,h3,h4 {
 }
 
 .logo-artrage {
- 
     background-image: url("../images/logo-artrage.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -190,15 +181,12 @@ h1,h2,h3,h4 {
     text-decoration: none;
     font-weight: 600;
     color: #08002e;
-
 }
 
 .content-link:hover {
     text-decoration: none;
     font-weight: bold;
-    /*color: #df621a;*/
     color:#9c0e21;
-
 }
 
 .content-heading {
@@ -214,6 +202,14 @@ h1,h2,h3,h4 {
 
 .album-description {
     padding: 10px 10px 10px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.album-description-tracks {
+    white-space: pre-line;
+    padding: 5px 10px 10px 5px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -236,8 +232,8 @@ h1,h2,h3,h4 {
 .hr {
     border:none;
     border-top:1px dotted #d86214;
-    color: none;
-    background-color: none;
+    color: transparent;
+    background-color: transparent;
     height:0px;
     width:75%;
 }
@@ -299,16 +295,7 @@ h1,h2,h3,h4 {
 
 .container-fluid {
     color: #fafafa;
-    
 }
-
-/*.col-sm-3 {
-    : 8px;
-}*/
-
-/*.fab, .fas {
-    color:#df621a;
-} */
 
 .orange-icon {
     color:#9c0e21;
@@ -331,8 +318,6 @@ h1,h2,h3,h4 {
 }
 
 .list-inline-contact-item a i:hover {
-    
-    /*display: inline;*/
     padding: 2px;
     color: #08002e;
     text-decoration: none;
@@ -346,7 +331,6 @@ h1,h2,h3,h4 {
 .contact-text a {
     color:#9c0e21;
     font-weight: bold;
-
 }
 
 .contact-text a:hover {

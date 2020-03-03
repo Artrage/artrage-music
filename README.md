@@ -1,5 +1,5 @@
  
-FIRST MILESTONE PROJECT: Artrage, Music Producer
+# FIRST MILESTONE PROJECT: Artrage, Music Producer
 
 This is the official website for the music producer Artrage.
 It contains his music, lyrics and other texts, as well as merchandize.
@@ -11,7 +11,7 @@ Thus, it meets the thematic requirements for the Milestone Project.
 5. Contact allows the user to get in touch with Artrage by filling out a contact form a typing out a message.
 6. The footer contains social media links and PayPal donate button.
 
-UX PROCESS
+## UX PROCESS
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 The website is for and about the music producer Artrage.
 Its purpose is to:
@@ -22,7 +22,7 @@ Its purpose is to:
 •	Provide his contact information for managers, agents and fans alike
 •	Invite users to purchase his merchandize while also supporting a noble cause
 
-USER STORIES 
+## USER STORIES 
 User story pages, diagrams, sketches and other notes are contained in assets/project-images/milestone-project-images.pdf on GitHub.
 1.	Music
 As the user opens index.html, the links to four Artrage’s albums appear both in the left menu and in the main page.
@@ -47,7 +47,7 @@ The first thing the user sees is the email form in the central column. This is i
 The left column contains the description of Artrage’s approach and methods.
 The right column contains the option to donate via PayPal.
 
-FEATURES
+## FEATURES
 Existing Features
 1.	The app in general
 a.	Sweep-to-bottom feature in the main menu – grey-to-burgundy
@@ -91,20 +91,18 @@ f.	It’s dark navy color matches that of the Artrage logo
 g.	The sections are centrally aligned for aesthetic effect
 h.	The social and contact links are burgundy and go white on hover, while the Donate button is made to stand out with light grey to burgundy on hover
 
-Features Left to Implement
+### Features Left to Implement
 1.	PayPal and/or Stripe store checkout as links to PayPal Donate from Buy Now are temporary
 2.	The email account to receive message from the Contact Form
 3.	A selection of which platform to stream music from, e.g. Apple, Spotify, Soundcloud, etc.
 4.	Connect the social networks links to actual Artrage accounts
 5.	Test the footer float: bottom feature. Some pages don’t take up the entire screen in large resolution.
 
-Another feature idea
-Still thinking about that
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 Bootstrap, css, some advice from stackoverflow and w3 schools.
 
-TESTING
+## TESTING
 1.	Each link on the website has been tested, and leads exactly where it is supposed to lead
 2.	Social Links at the moment lead to Contact page
 3.	All highlighted sections highlight correctly to show the user where on the website they are
@@ -118,31 +116,35 @@ TESTING
 A few minor coding errors had been found in my code. What is left is something inherited from third parties such Apple Music, Soundcloud and Bandcamp, whose players I am using as iframe.
 11.	HTML beautification was carried in GitPod.
 12.	Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+    Go to the "Contact Us" page
+    Try to submit the empty form and verify that an error message about the required fields appears
+    Try to submit the form with an invalid email address and verify that a relevant error message appears
+    Try to submit the form with all inputs valid and verify that a success message appears.
+13. README was tested on dillinger.io and seems to look alright
 
-DEPLOYMENT
+## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
 
-CREDITS
+## CREDITS
 Two quotes marked as “stolen quotes” originally appear in the albums by Type O Negative.
 
-CONTENT
+## CONTENT
 All text for the website was written by Artrage.
 
-MEDIA
+## MEDIA
 All music, photos, logos and artwork are by Art Balenok, registered with IMRO as Artrage.
-The blank merchandise images were sourced as no-license-to-use. The logos and artwork used on them are by Art Balenok.
+The blank merchandise images were sourced as no-license-to-use. 
+The logos and artwork used on them are by Art Balenok.
 All photographs were taken by Art Balenok, all album covers were created in Photoshop by Art Balenok. 
 The image in “Without A Face” is by Sergei Balenok, who gave Art Balenok his express permission to use it.
 All music is copyrighted by Artrage.
 
-ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
 Matt Rudge, a Code Institute lecturer, demonstrated a number features I used in this project. 
 I did tweak them a bit though.
 In particular, those are:
 1. Sweep-to-bottom features in the top menu
 2. Ease-in-out in the header logo
 3. Ease-in-out in the social links in the footer
+
+Jonathan Munz, who acted as a mentor on this project and provided valuable advice.
