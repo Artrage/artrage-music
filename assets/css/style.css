@@ -24,7 +24,6 @@ header {
     background-color: rgba(10, 4, 104, 0.3)
 }
 
-
 .menuitem {
     height: 100px;
     padding: 0;
@@ -71,7 +70,6 @@ header {
 .heading {
     text-align: center;
 }
-
 
 /* ------ Text Elements ------ */
 .uppercase {
@@ -325,7 +323,6 @@ h1,h2,h3,h4 {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-
 }
 
 .contact-text a {
@@ -342,13 +339,13 @@ h1,h2,h3,h4 {
 }
 
 .i a {
-font-family: "Oxygen", sans-serif;
-color:#9c0e21;
+    font-family: "Oxygen", sans-serif;
+    color:#9c0e21;
 }
 
 .i a:hover {
-font-family: "Oxygen", sans-serif;
-color:#fafafa;
+    font-family: "Oxygen", sans-serif;
+    color:#fafafa;
 }
 
 .big-icon {
