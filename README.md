@@ -1,5 +1,7 @@
- 
-# FIRST MILESTONE PROJECT: Artrage, Music Producer
+![Artrage](https://i.ibb.co/CJ1CSYx/logo-artrage.png)
+
+# FIRST MILESTONE PROJECT: 
+## Artrage, Music Producer
 
 This is the official website for the music producer Artrage.
 It contains his music, lyrics and other texts, as well as merchandize, and a dedicated contact page.
@@ -26,27 +28,27 @@ User story sketch pages, diagrams, sketches and other notes are contained on Git
 https://github.com/Artrage/artrage/blob/master/assets/project-images/milestone-project-images.pdf
 
 1.	Music
-As the user opens index.html, the links to four Artrage’s albums appear both in the left menu and in the main page.
-The navy-to-burgundy hover is designed to invite the user to click on the link and listen to the album, while also reading about it in the right column.
-The music menu link is highlighted in a darker shade of grey. 
-The text links with navy font change to burgundy on hover. 
-As the user clicks on an album link and the relevant page opens, it is highlighted in the same darker shade of grey as the menu at the top, thus giving the user their exact “location” on the site.
+• As the user opens index.html, the links to four Artrage’s albums appear both in the left menu and in the main page.
+• The navy-to-burgundy hover is designed to invite the user to click on the link and listen to the album, while also reading about it in the right column.
+• The music menu link is highlighted in a darker shade of grey. 
+• The text links with navy font change to burgundy on hover. 
+• As the user clicks on an album link and the relevant page opens, it is highlighted in the same darker shade of grey as the menu at the top, thus giving the user their exact “location” on the site.
 2.	Lyrics
-As the user clicks on the lyrics link, the page opens with three separate links: two albums and quickies.
-This is also duplicated in the left menu.
-The user is compelled to click on one of the links to read the lyrics or the short texts.
+• As the user clicks on the lyrics link, the page opens with three separate links: two albums and Quickies.
+• This is also accessible from the left menu.
+• The user is compelled to click on one of the links to read the lyrics or the short texts.
 3.	Merch
-The merchandize page contains nice images of Artrage branded merchandize with “Buy now” buttons that take the user to PayPal.
-The left column contains compelling info about the quality of the merchandize as well as the good cause Artrage is supporting with the sales.
-The user is given additional reasons to make a purchase.
+• The merchandize page contains nice images of Artrage branded merchandize with custom “Buy now” buttons that take the user to PayPal.
+• The left column contains compelling info about the quality of the merchandize as well as the good cause Artrage is supporting with the sales.
+• The user is given additional reasons to make a purchase.
 4.	About
-The left column contains snippets of information about Artrage’s music philosophy, while the main section features a few of his photos and more general info about him.
-The user is encouraged to read about the man behind the music and the cause.
+• The left column contains snippets of information about Artrage’s music philosophy, while the main section features a few of his photos and more general info about him.
+• The user is encouraged to read about the man behind the music and the cause.
 5.	Contact
-The link to the contact page is located in the footer.
-The first thing the user sees is the email form in the central column. This is intentional.
-The left column contains the description of Artrage’s approach and methods.
-The right column contains the option to donate via PayPal.
+• The link to the contact page is located in the footer.
+• The first thing the user sees is the email form in the central column. This is intentional.
+• The left column contains the description of Artrage’s approach and methods.
+• The right column contains the option to donate via PayPal.
 
 ## FEATURES
 Existing Features
@@ -64,34 +66,34 @@ Existing Features
 •   Unique favicon is used throughout
 
 2.	Music
-a.	Each album is available to stream from an online service
-b.	The players are embedded as iframe
-c.	A background image with a music note and the word “Loading” appears in the center column before the iframe loads fully
-d.	The user is able to easily navigate from album to album, or listen to each and any track
+• 	Each album is available to stream from an online service
+• 	The players are embedded as iframe
+• 	A background image with a music note and the word “Loading” appears in the center column before the iframe loads fully
+• 	The user is able to easily navigate from album to album, or listen to each and any track
 
 3.	Lyrics
-a.	The user can easily reach any lyrics section of any album and read them
-b.	All the color changes on hover make the page look dynamic
+• 	The user can easily reach any lyrics section of any album and read them
+• 	All the color changes on hover make the page look dynamic
 
 4.	Merch
-a.	Custom made Buy Now button changes from grey to burgundy on hover to match the top menu
-b.	Images change opacity on hover
-c.	Each image opens in a new tab for a closer look
-d.	Each button opens a PayPal Donate page in a new tab
+• 	Custom made Buy Now button changes from grey to burgundy on hover to match the top menu
+• 	Images change opacity on hover to invite the user to click on it and for ease of navigation
+• 	Each image opens in a new tab for a closer look
+• 	Each button opens a PayPal Donate page in a new tab
 
 5.	About
-a.	Each image is in a 1px thick border with slightly rounded corners
-b.	Small icons are introduced for ease of navigation between the section, which helps on smartphone screens
+• 	Each image is in a 1px thick border with slightly rounded corners to achieve a smooth looking border
+• 	Small icons are introduced for ease of navigation between the section, which helps on smartphone screens
 
 6.	Contact
-c.	All fields are subject to default Bootstrap validation and have to filled out before the message is sent
-d.	The user will receive respective prompts and warnings
-e.	The actual email account is yet to be connected
+• 	All fields are subject to default Bootstrap validation and have to be filled out before the message is sent
+• 	The user will receive respective prompts and warnings
+• 	The actual email account is yet to be connected
 
 7.	Footer
-f.	It’s dark navy color matches that of the Artrage logo
-g.	The sections are centrally aligned for aesthetic effect
-h.	The social and contact links are burgundy and go white on hover, while the Donate button is made to stand out with light grey to burgundy on hover
+• 	It’s dark navy color matches that of the Artrage logo
+• 	The sections are centrally aligned for aesthetic effect
+• 	The social and contact links are burgundy and go white on hover, while the Donate button is made to stand out with light grey to burgundy on hover
 
 ### Features Left to Implement
 1.	PayPal and/or Stripe store checkout as links to PayPal Donate from Buy Now are temporary
@@ -134,13 +136,14 @@ Two quotes marked as “stolen quotes” originally appear in the albums by Type
 All text for the website was written by Artrage.
 
 ## MEDIA
-All music is created by Art Balenok, registered with IMRO as Artrage.
+All music is created and copyrighted by Art Balenok, registered with IMRO as Artrage.
 All photos, favicon, logos and artwork are by Art Balenok.
 The blank merchandise images were sourced as no-license-to-use. 
 The logos and artwork used on them are by Art Balenok.
 All photographs were taken by Art Balenok, all album covers were created in Photoshop by Art Balenok. 
-The images in “Without A Face” as well as "Blackmilk" are by Sergei Balenok, who gave Art Balenok his express permission to use them.
-All music is copyrighted by Artrage.
+### Except:
+• The images for “Without A Face” as well as "Blackmilk" are by Sergei Balenok, who gave Art Balenok his express permission to use them without restrictions.
+• The photo for "Ocean Lips" was taken by Nick Balenok specifically for Art Balenok. Nick gave Art express permission to use it without restrictions.
 
 ## ACKNOWLEDGEMENTS
 • Matt Rudge, a Code Institute lecturer, demonstrated a number features I used in this project. 
