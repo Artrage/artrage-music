@@ -60,6 +60,7 @@ g.	Ease-in 2 second delay effect is used in the social media icons
 h.	All external links open in a new tab
 i.	Images’ opacity changes on hover on all pages where images serve as links
 j.	Three Google fonts are used:  Bebas Neue in the heading, Montserrat in titles, and Oxygen in other areas
+k.  Unique favicon is used
 
 2.	Music
 a.	Each album is available to stream from an online service
@@ -119,8 +120,8 @@ A few minor coding errors had been found in my code. What is left is something i
     Go to the "Contact Us" page
     Try to submit the empty form and verify that an error message about the required fields appears
     Try to submit the form with an invalid email address and verify that a relevant error message appears
-    Try to submit the form with all inputs valid and verify that a success message appears.
-13. README was tested on dillinger.io and seems to look alright
+    Try to submit the form with all inputs valid and verify that a success message appears
+13. README was tested on dillinger.io and seems to look readable and in line with the convention
 
 ## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
@@ -132,7 +133,8 @@ Two quotes marked as “stolen quotes” originally appear in the albums by Type
 All text for the website was written by Artrage.
 
 ## MEDIA
-All music, photos, logos and artwork are by Art Balenok, registered with IMRO as Artrage.
+All music is created by Art Balenok, registered with IMRO as Artrage.
+All photos, favicon, logos and artwork are by Art Balenok.
 The blank merchandise images were sourced as no-license-to-use. 
 The logos and artwork used on them are by Art Balenok.
 All photographs were taken by Art Balenok, all album covers were created in Photoshop by Art Balenok. 
