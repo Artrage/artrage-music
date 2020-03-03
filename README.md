@@ -1,68 +1,148 @@
-Artrage
+ 
+FIRST MILESTONE PROJECT: Artrage, Music Producer
+
 This is the official website for the music producer Artrage.
 It contains his music, lyrics and other texts, as well as merchandize.
+Thus, it meets the thematic requirements for the Milestone Project.
+1. The Music page contains four of his albums. Two are available to listen to via Apple Music (Ocean Lips, 2016) and Bandcamp (Blackmilk, 2011). Broken Stars is to be released in 2020, thus the page only provides information about it. Without a Face, 2004, is not available online.
+2. The Lyrics section contains the lyrics from two albums and a section entitled Quickies. Those are just short snippets of text.
+3. The Merch section contains a selection of official Artrage merchandize available to purchase.
+4. About tells the user who this music producer is.
+5. Contact allows the user to get in touch with Artrage by filling out a contact form a typing out a message.
+6. The footer contains social media links and PayPal donate button.
 
-Essentially, this part is your sales pitch.
+UX PROCESS
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website is for and about the music producer Artrage.
+Its purpose is to:
+•	Showcase his albums and tracks to those who are interested in electronic and/or heavy music
+•	Showcase his lyrics and quickies
+•	Tell the user about him as producer and musician
+•	Demonstrate his music portfolio to those wishing to collaborate
+•	Provide his contact information for managers, agents and fans alike
+•	Invite users to purchase his merchandize while also supporting a noble cause
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, 
-what it is that they want to achieve and how your project is the best way to help them achieve these things.
+USER STORIES 
+User story pages, diagrams, sketches and other notes are contained in assets/project-images/milestone-project-images.pdf on GitHub.
+1.	Music
+As the user opens index.html, the links to four Artrage’s albums appear both in the left menu and in the main page.
+The navy-to-burgundy hover is designed to invite the user to click on the link and listen to the album, while also reading about it in the right column.
+The music menu link is highlighted in a darker shade of grey. 
+The text links with navy font change to burgundy on hover. 
+As the user clicks on an album link and the relevant page opens, it is highlighted in the same darker shade of grey as the menu at the top, thus giving the user their exact “location” on the site.
+2.	Lyrics
+As the user clicks on the lyrics link, the page opens with three separate links: two albums and quickies.
+This is also duplicated in the left menu.
+The user is compelled to click on one of the links to read the lyrics or the short texts.
+3.	Merch
+The merchandize page contains nice images of Artrage branded merchandize with “Buy now” buttons that take the user to PayPal.
+The left column contains compelling info about the quality of the merchandize as well as the good cause Artrage is supporting with the sales.
+The user is given additional reasons to make a purchase.
+4.	About
+The left column contains snippets of information about Artrage’s music philosophy, while the main section features a few of his photos and more general info about him.
+The user is encouraged to read about the man behind the music and the cause.
+5.	Contact
+The link to the contact page is located in the footer.
+The first thing the user sees is the email form in the central column. This is intentional.
+The left column contains the description of Artrage’s approach and methods.
+The right column contains the option to donate via PayPal.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, 
-with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
+FEATURES
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+1.	The app in general
+a.	Sweep-to-bottom feature in the main menu – grey-to-burgundy
+b.	General layout and color scheme are the same in all pages for synergy and 
+c.	Active section and subsection are highlighted a darker shade of grey
+d.	Active links in the left menu are highlighted burgundy
+e.	Custom made PayPal donate button changes from grey to burgundy on hover to match the top menu
+f.	Ease-in 3 second delay effect is used in the logo image
+g.	Ease-in 2 second delay effect is used in the social media icons
+h.	All external links open in a new tab
+i.	Images’ opacity changes on hover on all pages where images serve as links
+j.	Three Google fonts are used:  Bebas Neue in the heading, Montserrat in titles, and Oxygen in other areas
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+2.	Music
+a.	Each album is available to stream from an online service
+b.	The players are embedded as iframe
+c.	A background image with a music note and the word “Loading” appears in the center column before the iframe loads fully
+d.	The user is able to easily navigate from album to album, or listen to each and any track
+
+3.	Lyrics
+a.	The user can easily reach any lyrics section of any album and read them
+b.	All the color changes on hover make the page look dynamic
+
+4.	Merch
+a.	Custom made Buy Now button changes from grey to burgundy on hover to match the top menu
+b.	Images change opacity on hover
+c.	Each image opens in a new tab for a closer look
+d.	Each button opens a PayPal Donate page in a new tab
+
+5.	About
+a.	Each image is in a 1px thick border with slightly rounded corners
+b.	Small icons are introduced for ease of navigation between the section, which helps on smartphone screens
+
+6.	Contact
+c.	All fields are subject to default Bootstrap validation and have to filled out before the message is sent
+d.	The user will receive respective prompts and warnings
+e.	The actual email account is yet to be connected
+
+7.	Footer
+f.	It’s dark navy color matches that of the Artrage logo
+g.	The sections are centrally aligned for aesthetic effect
+h.	The social and contact links are burgundy and go white on hover, while the Donate button is made to stand out with light grey to burgundy on hover
 
 Features Left to Implement
+1.	PayPal and/or Stripe store checkout as links to PayPal Donate from Buy Now are temporary
+2.	The email account to receive message from the Contact Form
+3.	A selection of which platform to stream music from, e.g. Apple, Spotify, Soundcloud, etc.
+4.	Connect the social networks links to actual Artrage accounts
+5.	Test the footer float: bottom feature. Some pages don’t take up the entire screen in large resolution.
+
 Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Still thinking about that
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+TECHNOLOGIES USED
+Bootstrap, css, some advice from stackoverflow and w3 schools.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
+TESTING
+1.	Each link on the website has been tested, and leads exactly where it is supposed to lead
+2.	Social Links at the moment lead to Contact page
+3.	All highlighted sections highlight correctly to show the user where on the website they are
+4.	All the links supposed to open in a separate tab do so
+5.	The website is responsive and looks good on smartphone screens.
+6.	The horizontal look on the iPad is better than the vertical.
+7.	Utilized background-image feature in the header. Originally used a font for Artrage, and the word Artrage in the logo as well, but it looked too busy. Had to tweak the newly introduced background image to ensure it looked good on all screens.
+8.	The star logo disappears from smaller screens, thus the introduction of another background image was a necessary step.
+9.	Footer entries would not centrally align without the display: inline function in smartphone and iPad modes.
+10.	Code testing was carried out page by page on w3 validator. 
+A few minor coding errors had been found in my code. What is left is something inherited from third parties such Apple Music, Soundcloud and Bandcamp, whose players I am using as iframe.
+11.	HTML beautification was carried in GitPod.
+12.	Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+DEPLOYMENT
+The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+CREDITS
+Two quotes marked as “stolen quotes” originally appear in the albums by Type O Negative.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+CONTENT
+All text for the website was written by Artrage.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+MEDIA
+All music, photos, logos and artwork are by Art Balenok, registered with IMRO as Artrage.
+The blank merchandise images were sourced as no-license-to-use. The logos and artwork used on them are by Art Balenok.
+All photographs were taken by Art Balenok, all album covers were created in Photoshop by Art Balenok. 
+The image in “Without A Face” is by Sergei Balenok, who gave Art Balenok his express permission to use it.
+All music is copyrighted by Artrage.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+ACKNOWLEDGEMENTS
+Matt Rudge, a Code Institute lecturer, demonstrated a number features I used in this project. 
+I did tweak them a bit though.
+In particular, those are:
+1. Sweep-to-bottom features in the top menu
+2. Ease-in-out in the header logo
+3. Ease-in-out in the social links in the footer
