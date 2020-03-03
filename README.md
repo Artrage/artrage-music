@@ -114,7 +114,7 @@ Bootstrap, css, some advice from stackoverflow and w3 schools.
 7.	Utilized background-image feature in the header. Originally used a font for Artrage, and the word Artrage in the logo as well, but it looked too busy. Had to tweak the newly introduced background image to ensure it looked good on all screens.
 8.	The star logo disappears from smaller screens, thus the introduction of another background image was a necessary step.
 9.	Footer entries would not centrally align without the display: inline function in smartphone and iPad modes.
-10.	Code testing was carried out page by page on w3 validator. 
+10.	Code testing was carried out page by page on w3 validator. CSS - through Jigsaw validator.
 A few minor coding errors had been found in my code. What is left is something inherited from third parties such Apple Music, Soundcloud and Bandcamp, whose players I am using as iframe.
 11.	HTML beautification was carried in GitPod.
 12.	Contact form:
