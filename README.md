@@ -133,6 +133,7 @@ A few minor coding errors had been found in my code. What is left is something i
 ## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
 
+
 ## CREDITS
 Two quotes marked as “stolen quotes” originally appear in the albums by Type O Negative.
 
