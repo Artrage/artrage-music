@@ -33,17 +33,21 @@ https://github.com/Artrage/artrage/blob/master/assets/project-images/milestone-p
 • The music menu link is highlighted in a darker shade of grey. 
 • The text links with navy font change to burgundy on hover. 
 • As the user clicks on an album link and the relevant page opens, it is highlighted in the same darker shade of grey as the menu at the top, thus giving the user their exact “location” on the site.
+
 2.	Lyrics
 • As the user clicks on the lyrics link, the page opens with three separate links: two albums and Quickies.
 • This is also accessible from the left menu.
 • The user is compelled to click on one of the links to read the lyrics or the short texts.
+
 3.	Merch
 • The merchandize page contains nice images of Artrage branded merchandize with custom “Buy now” buttons that take the user to PayPal.
 • The left column contains compelling info about the quality of the merchandize as well as the good cause Artrage is supporting with the sales.
 • The user is given additional reasons to make a purchase.
+
 4.	About
 • The left column contains snippets of information about Artrage’s music philosophy, while the main section features a few of his photos and more general info about him.
 • The user is encouraged to read about the man behind the music and the cause.
+
 5.	Contact
 • The link to the contact page is located in the footer.
 • The first thing the user sees is the email form in the central column. This is intentional.
@@ -154,3 +158,5 @@ In particular, those are:
 3. Ease-in-out in the social links in the footer
 
 • Jonathan Munz, who acted as a mentor on this project and provided valuable advice.
+
+**My first README and the first website I submit for grading :) Good luck to me and thank you guys!**
